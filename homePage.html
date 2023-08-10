@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+    <link rel="stylesheet" href="homePage.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="inventory">
+            <span>Inventory Management</span>
+            </div>
+            <div class="headerIcons">
+            <a href="homePage.html"><i class="material-icons">home</i></a>
+            <a href=""><i class="material-icons">add_circle_outline</i></a>
+            </div>
+        </header>
+        <nav>
+            <div class="category">
+                <button class="buttonFilter" value="all">allProducts</button>
+                <button class="buttonFilter" value="men's clothing">men</button>
+                <button class="buttonFilter" value="women's clothing">women</button>
+                <button class="buttonFilter" value="jewelery">jewelry</button>
+                <button class="buttonFilter" value="electronics">electronics</button>
+            </div>
+            <div class="search">
+                <input class="searchButton" type="text" placeholder="search" value="">
+                <button class="pressSearch">
+                    <i class="small material-icons">search</i>
+                </button>
+            
+            </div>
+        </nav>
+        <main>
+        <h1>products</h1>
+        <div class="cardsContainer">
+        </div>
+        </main>
+        <footer></footer>
+    </div>
+    <script src="homePage.js"></script>
+</body>
+</html>
